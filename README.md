@@ -1,6 +1,6 @@
 # Milk In Minutes
 
-Milk In Minutes is a web application designed to help users quickly find and order dairy products online. The application provides a seamless shopping experience with an intuitive interface and fast delivery service.
+Milk In Minutes is a web application designed to help users quickly find and order dairy products online. 
 
 ## Features
 - User authentication and profile management
