@@ -1,0 +1,108 @@
+<p class="back"><a class="back" routerLink=""><mat-icon class="backicon">arrow_back_ios_new</mat-icon> Go Back To Home  </a> </p>
+<span class="material-symbols-outlined">
+    
+    </span>
+<div class="singleProductPage">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../../assets/new/{{product1.img1}}" title="{{product1.productName}}" class="img-fluid mainImage">
+        </div>
+        <div class="col-md-6">
+            <div class="orderForm">
+                <h1>{{product1.productName}}</h1>
+                
+                <p>{{product1.description}}</p>
+                <p class="text-danger ">Rs.{{product1.price}}/-</p>
+                <form [formGroup]="orderForm" (submit)="orderSubmitted()">
+                    <div class="form-group group1">
+                        <h3>Your Details</h3>
+                        <div class="row row1">
+                            <div class="col">
+                                <mat-form-field appearance="fill">
+                                    <mat-label>Your Name</mat-label>
+                                    <input class="name" matInput type="text" placeholder="Your Full Name" formControlName="cusName">
+                                    <mat-error *ngIf="orderForm.get('cusName')?.hasError('required')">Your Name is Required</mat-error>
+
+                                    <mat-error *ngIf="orderForm.get('cusName')?.hasError('pattern')">Invalid Name, Enter Only Alphabets</mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col">
+                                <mat-form-field appearance="fill">
+                                    <mat-label>Your Email Address</mat-label>
+                                    <input matInput type="email" placeholder="Your Email" formControlName="cusEmail">
+                                    <mat-error *ngIf="orderForm.get('cusEmail')?.hasError('required')">Your Email is Required</mat-error>
+                                    <mat-error *ngIf="orderForm.get('cusEmail')?.hasError('email')">Enter Valid Email</mat-error>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <mat-form-field appearance="fill">
+                            <mat-label>Your Phone Number</mat-label>
+                            <input matInput type="tel" placeholder="Your Phone Number" formControlName="cusPhone">
+                            <mat-error *ngIf="orderForm.get('cusPhone')?.hasError('required')">Your Phone Number is Required</mat-error>
+                            <mat-error *ngIf="orderForm.get('cusPhone')?.hasError('pattern')">Enter Valid Phone Number Starting with 7/8/9 and exactly 10 digits</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group">
+                        <h3>Shipping Address</h3>
+                        <div formGroupName="cusAddress">
+                            <mat-form-field appearance="fill">
+                                <mat-label>Street</mat-label>
+                                <input matInput type="text" placeholder="Street" formControlName="street">
+                                <mat-error *ngIf="orderForm.get('cusAddress.street')?.hasError('required')">This field is Required</mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="fill">
+                                <mat-label>City</mat-label>
+                                <input matInput type="text" placeholder="City" formControlName="city">
+                                <mat-error *ngIf="orderForm.get('cusAddress.city')?.hasError('required')">This field is Required</mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="fill">
+                                <mat-label>State</mat-label>
+                                <input matInput type="text" placeholder="State" formControlName="state">
+                                <mat-error *ngIf="orderForm.get('cusAddress.state')?.hasError('required')">This field is Required</mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="fill">
+                                <mat-label>Pincode</mat-label>
+                                <input matInput type="number" placeholder="Pincode" formControlName="pincode">
+                                <mat-error *ngIf="orderForm.get('cusAddress.pincode')?.hasError('required')">This field is Required</mat-error>
+                                <mat-error *ngIf="orderForm.get('cusAddress.pincode')?.hasError('min')">
+                                    Enter Valid Pincode of 6 Digits
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h3>Order Details</h3>
+                        <div formGroupName="orderDetails">
+                            <mat-form-field appearance="fill">
+                                <mat-label>Product</mat-label>
+                                <input matInput type="text" placeholder="Product Name" formControlName="product" [value]="product1.productName" readonly>
+
+                                <mat-error *ngIf="orderForm.get('orderDetails.product')?.hasError('required')">Product Name Is Required</mat-error>
+                            </mat-form-field>
+                            <mat-form-field appearance="fill">
+                                <mat-label>Quantity</mat-label>
+                                <input matInput type="number" placeholder="Quantity" formControlName="quantity">
+                                <mat-error *ngIf="orderForm.get('orderDetails.quantity')?.hasError('required')">Quantity is required</mat-error>
+                                <mat-error *ngIf="orderForm.get('orderDetails.quantity')?.hasError('min')">Minimum Quantity is 1</mat-error>
+
+                                <mat-error *ngIf="orderForm.get('orderDetails.quantity')?.hasError('max')">Maximum Quantity is 999</mat-error>
+
+                                <mat-error *ngIf="orderForm.get('orderDetails.quantity')?.hasError('pattern')">Enter Integers Only</mat-error>
+                                
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <p *ngIf="product1.price !== undefined && orderForm.controls['orderDetails'].controls['quantity'].value !== undefined && orderForm.controls['orderDetails'].controls['quantity'].valid" class="text-danger">
+
+                        Total Price: Rs {{ (Number(product1.price) * Number( orderForm.get('orderDetails.quantity')?.value || ''))  }}/-
+        
+                        </p>
+                    <button mat-raised-button type="submit" color="primary" [disabled]="!orderForm.valid">Request Order</button>
+                </form>
+               
+
+                
+            </div>
+        </div>
+    </div>
+</div>

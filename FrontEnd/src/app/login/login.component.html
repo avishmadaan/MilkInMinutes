@@ -1,0 +1,64 @@
+<div class="login-container">
+  <h1 class="login-header">Login</h1>
+  <form
+    [formGroup]="loginForm"
+    (submit)="loginFormSubmitted()"
+    class="login-form"
+  >
+    <mat-form-field>
+      <mat-label>Enter Email</mat-label>
+      <input
+        matInput
+        type="email"
+        formControlName="email"
+        placeholder="Example: admin@niit.com"
+      />
+      <mat-error *ngIf="loginForm.controls['email'].hasError('required')"
+        >Email Is Required</mat-error
+      >
+      <mat-error *ngIf="loginForm.controls['email'].hasError('email')"
+        >Enter Valid Email</mat-error
+      >
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Enter Password</mat-label>
+      <input
+        matInput
+        type="password"
+        formControlName="pass"
+        placeholder="****"
+      />
+      <mat-error *ngIf="loginForm.controls['pass'].hasError('required')"
+        >Password Is Required</mat-error
+      >
+    </mat-form-field>
+
+    <div class="admin-login-field">
+      <mat-form-field *ngIf="adminLogin">
+        <mat-label>Enter Admin Auth Key</mat-label>
+        <input
+          matInput
+          type="string"
+          formControlName="authKey"
+          placeholder="Enter Auth key"
+        />
+      </mat-form-field>
+    </div>
+
+    <button
+      type="submit"
+      mat-raised-button
+      color="primary"
+      [disabled]="!loginForm.valid"
+    >
+      Login
+    </button>
+
+    <span (click)="viewloginAsAdmin()" class="login-switch"
+      >Login As Adminstrator</span
+    >
+
+    <mat-spinner *ngIf="showSpinner"></mat-spinner>
+  </form>
+</div>

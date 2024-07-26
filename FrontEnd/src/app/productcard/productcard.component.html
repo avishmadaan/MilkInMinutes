@@ -1,0 +1,33 @@
+<div class="card-container">
+  <mat-card class="example-card">
+    <img
+      mat-card-image
+      src="../../assets/new/{{ singleProduct.img1 }}"
+      alt="{{ singleProduct.productName }}"
+    />
+
+    <mat-card-content>
+      <h6>{{ singleProduct.size }}</h6>
+      <mat-card-title>{{ singleProduct.productName }}</mat-card-title>
+      <mat-card-subtitle>Rs.{{ singleProduct.price }}/-</mat-card-subtitle>
+      <div class="rating">
+        <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+        <!-- Example star rating -->
+        <span class="reviews">125 reviews</span>
+      </div>
+      <p class="discount">Save 20% with this offer!</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button
+        mat-raised-button
+        color="primary"
+        routerLink="products/{{singleProduct.productName}}"
+      >
+        Request Order
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <!-- Your card elements here -->
+</div>

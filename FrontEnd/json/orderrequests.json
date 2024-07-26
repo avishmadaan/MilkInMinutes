@@ -1,0 +1,40 @@
+{
+  "orderRequest": [
+    {
+      "id": "37b2",
+      "cusName": "avish",
+      "cusEmail": "afdd@gmail.com",
+      "cusPhone": "9799937376",
+      "cusAddress": {
+        "street": "dddd",
+        "city": "dd",
+        "state": "dd",
+        "pincode": 335062
+      },
+      "orderDetails": {
+        "product": "Capella Dark Chocolate 70%",
+        "quantity": 4,
+        "orderDate": "2024-04-16T12:45:01.662Z",
+        "totalAmount": 396
+      }
+    },
+    {
+      "id": "1040",
+      "cusName": "lavish",
+      "cusEmail": "afdd@gmail.com",
+      "cusPhone": "9799937376",
+      "cusAddress": {
+        "street": "dddd",
+        "city": "dd",
+        "state": "dd",
+        "pincode": 335062
+      },
+      "orderDetails": {
+        "product": "Capella Dark Chocolate 70%",
+        "quantity": 40,
+        "orderDate": "2024-04-16T12:45:24.118Z",
+        "totalAmount": 3960
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<div class="searchbar">
+  <mat-form-field class="example-full-width">
+    <mat-label>Search</mat-label>
+    <input
+      matInput
+      placeholder="Ex. Milk"
+      [(ngModel)]="searchedKeyword"
+      (keyup.enter)="searchFun()"
+      (input)="searchFun()"
+    />
+  </mat-form-field>
+  <button type="button" (click)="searchFun()" mat-icon-button>
+    <mat-icon>search</mat-icon>
+  </button>
+</div>
+
+<div class="filter-container">
+  <span>Filter By Category: &nbsp; &nbsp;</span>
+
+  <mat-chip-listbox
+    aria-label="Category Selection"
+    [(ngModel)]="selectedCategory"
+  >
+    <mat-chip-option
+      *ngFor="let one of categories"
+      (click)="categorySelected()"
+      >{{ one }}</mat-chip-option
+    >
+  </mat-chip-listbox>
+</div>

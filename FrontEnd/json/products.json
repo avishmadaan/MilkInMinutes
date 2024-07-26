@@ -1,0 +1,188 @@
+{
+    "product": [
+    
+      {
+        "productName": "Cheddar Cheese ",
+        "category": "cheese",
+        "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+        "size": "200g",
+        "shelfLife": "7 days",
+        "price":"90",
+        "img1":"cheese1-1.webp"
+        
+      },
+
+      {
+        "productName": "Processed Chesse Block",
+        "category": "cheese",
+        "description": "Milky Mist Frozen Paneer is made from pure and best quality milk so that you get that essential punch of nutrition in your diet. The refrigeration helps keep the product intact for longer.",
+        "size": "1Kg",
+        "shelfLife": "7 days",
+        "price":"530",
+        "img1":"cheese2-1.webp"
+      
+      },
+    {
+      "productName": "Cheese Block (200g)",
+      "category": "cheese",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "200g",
+      "shelfLife": "7 days",
+      "price":"120",
+      "img1":"cheese3-1.webp"
+    },
+    {
+      "productName": "Capella Dark Chocolate 55%",
+      "category": "chocolate",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "40g",
+      "shelfLife": "7 days",
+      "price":"60",
+      "img1":"chocolate1-1.webp"
+    },
+    {
+      "productName": "Capella Dark Chocolate 70%",
+      "category": "chocolate",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "80g",
+      "shelfLife": "7 days",
+      "price":"99",
+      "img1":"chocolate2-1.webp"
+    },
+    {
+      "productName": "Dark Delight Wafer Container",
+      "category": "chocolate",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "40g",
+      "shelfLife": "7 days",
+      "price":"310",
+      "img1":"chocolate3-1.webp"
+    },
+    {
+      "productName": "Capella Bonkers Wafer Jar",
+      "category": "chocolate",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "40g",
+      "shelfLife": "7 days",
+      "price":"410",
+      "img1":"chocolate4-1.webp"
+    },
+    {
+      "productName": "Capella Dark Chocolate 55% Fruit & Nuts",
+      "category": "chocolate",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "40g",
+      "shelfLife": "7 days",
+      "price":"410",
+      "img1":"chocolate5-1.webp"
+    },
+    {
+      "productName": "Lactose Free Milk",
+      "category": "milk",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "250ml",
+      "shelfLife": "7 days",
+      "price":"45",
+      "img1":"milk1-1.webp"
+    },
+    {
+      "productName": "Toned Milk (1L)",
+      "category": "milk",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "1L",
+      "shelfLife": "7 days",
+      "price":"67",
+      "img1":"milk2-1.webp"
+    },
+    {
+      "productName": "Double Tond Milk",
+      "category": "milk",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "250ml",
+      "shelfLife": "7 days",
+      "price":"89",
+      "img1":"milk3-1.webp"
+    },
+
+    {
+      "productName": "Fresh Panner",
+      "category": "paneer",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "1Kg",
+      "shelfLife": "7 days",
+      "price":"230",
+      "img1":"panner1-1.webp"
+      
+    },
+
+    {
+      "productName": "Malai Panner Cubes",
+      "category": "paneer",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "200g",
+      "shelfLife": "7 days",
+      "price":"110",
+      "img1":"panner2-1.webp"
+      
+    },
+    {
+      "productName": "Fusion Shake (Badam & Pista )",
+      "category": "shake",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "200ml",
+      "shelfLife": "7 days",
+      "price":"30",
+      "img1":"shake1-1.webp"
+      
+    },
+
+    {
+      "productName": "Bluebeery Lassi",
+      "category": "shake",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "200ml",
+      "shelfLife": "7 days",
+      "price":"45",
+      "img1":"shake2-1.webp"
+      
+    },
+
+    {
+      "productName": "Blueberry Yogurt",
+      "category": "yougurt",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "100g",
+      "shelfLife": "7 days",
+      "price":"29",
+      "img1":"yogurt1-1.webp"
+      
+    },
+
+    {
+      "productName": "Fruit Yogurt Blueberry",
+      "category": "yougurt",
+      "description": "Moderate Fat, Great for Curries & Tikka Receipes and very Soft texture with enhanced milky odour. Available under the Brand name “Milky Mist”.",
+      "size": "1kg",
+      "shelfLife": "7 days",
+      "price":"550",
+      "img1":"yogurt2-1.webp"
+      
+    }
+  
+  ],
+  
+  "category": [
+    "cheese",
+    "chocolate",
+    "milk",
+    "paneer",
+    "shake",
+    "yougurt"
+  ]
+  
+ 
+
+
+
+    }
+  

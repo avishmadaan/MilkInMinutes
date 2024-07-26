@@ -1,0 +1,77 @@
+
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.toolbar{
+  background-color: #1c293a;
+}
+
+.logout-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #012555; /* blue color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.logout-container mat-icon {
+  color: #ffffff; /* white color */
+}
+
+.welcome {
+  margin:20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  float: right;
+  display: flex; 
+  align-items: center;
+}
+.wel {
+  margin-left: auto; /* Align to the right */
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center the items */
+ 
+}
+
+.account {
+  cursor: pointer;
+  color: blue;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.wel span {
+  margin-left: 5px;
+
+}
+
+.custom {
+  background-color: #012555;
+}

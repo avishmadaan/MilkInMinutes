@@ -1,0 +1,15 @@
+.searchbar{
+    text-align: center;
+   
+    margin: -20px 0px 20px 0px;
+}
+
+.example-full-width {
+    width: 80%;
+  }
+
+  .filter-container {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Align child elements vertically */
+    justify-content: center; /* Center child elements horizontally */
+  }

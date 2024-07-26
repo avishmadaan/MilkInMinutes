@@ -1,0 +1,12 @@
+table {
+  width: 100%;
+  margin: 20px 0px 30px 0px;
+}
+.headline {
+  margin: 20px ;
+  font-weight: 800;
+}
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}

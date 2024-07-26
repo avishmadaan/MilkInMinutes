@@ -1,0 +1,8 @@
+<app-productcard
+  *ngFor="let product of productList"
+  [singleProduct]="product"
+></app-productcard>
+
+<p *ngIf="showNoProductMessage" class="animated-fade-in">
+  Sorry! No Such Product Exist
+</p>

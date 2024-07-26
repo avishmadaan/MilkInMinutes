@@ -1,0 +1,51 @@
+.access-denied {
+    text-align: center;
+    margin-top: 20vh; /* Adjust as needed */
+}
+
+.access-denied h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.access-denied .login-link {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+/* Define animations */
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply animations */
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.bounceIn {
+    animation-name: bounceIn;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}

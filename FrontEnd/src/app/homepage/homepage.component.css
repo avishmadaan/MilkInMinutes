@@ -1,0 +1,78 @@
+.headline {
+    font-weight: 900;
+}
+
+.productView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.heading {
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.heading h2 {
+    font-size: 30px;
+
+}
+
+/* Old ONe */
+
+
+#carousel .carousel-item.boat {
+  background-image: url("../../assets/new/bg_1.png");
+}
+
+#carousel .carousel-item {
+  height: 89vh;
+  width: 100%;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+
+#carousel .carousel-item .caption {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  color: rgb(0, 0, 0);
+  animation-duration: 1s;
+  animation-delay: 2s;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+
+
+/* Button */
+.delicious-btn {
+  display: inline-block;
+  min-width: 160px;
+  height: 60px;
+  color: #ffffff;
+  border: none;
+  border-left: 3px solid #ffffff;
+  border-radius: 0;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 58px;
+  font-weight: 600;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-transform: capitalize;
+  background-color: #012555;
+}
+
+.delicious-btn.active, .delicious-btn:hover, .delicious-btn:focus {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #6fadff;
+  font: #0572ff;
+}
+
+.container my-5 {
+    width: 100%;
+}

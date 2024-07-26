@@ -1,0 +1,46 @@
+.singleProductPage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.back {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.backicon {
+    font-size: 27px;
+}
+
+.mainImage {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add some space between the image and the form */
+}
+
+.orderForm {
+    flex: 1; /* Let the form take up remaining space */
+    max-width: 600px; /* Set maximum width for the form */
+    padding: 20px; /* Add padding to the form */
+    background-color: rgb(235, 237, 255);
+}
+
+.row {
+    margin-right: 0; /* Remove right margin to prevent horizontal scrolling */
+    margin-left: 0; /* Remove left margin to prevent horizontal scrolling */
+}
+
+
+
+.mat-form-field {
+    /* position: relative; */
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Add margin between form groups */
+}
+
+.row1, .group1 {
+    margin-bottom: 25px;
+}

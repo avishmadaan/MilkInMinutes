@@ -1,0 +1,58 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .text-404 {
+    font-size: 10rem;
+    margin-bottom: 40px;
+    color: #343a40;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .text-message {
+    font-size: 2rem;
+    color: #343a40;
+    margin: 20px 0;
+  }
+
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+  .astronaut {
+    width: 300px;
+    margin-top: 20px; /* Adjust margin to separate astronaut from text */
+    animation: astronaut-float 3s infinite alternate;
+  }
+
+  @keyframes astronaut-float {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
