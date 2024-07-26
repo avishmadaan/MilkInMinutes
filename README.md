@@ -7,9 +7,6 @@ Milk In Minutes is a web application designed to help users quickly find and ord
 - Order Request Feature
 - Browse various dairy products like milk, cheese, yogurt, and more using dyanmic search
 
-## Overview Video
-https://www.loom.com/share/5e6c9a090bff498e8e1c477e9e4b22b1?sid=0ac7837e-e345-4fc1-b22f-f29eb89fe6f0
-
 ## Tech Stack
 - Angular ( Main FrontEnd Framework )
 - Html
@@ -17,6 +14,12 @@ https://www.loom.com/share/5e6c9a090bff498e8e1c477e9e4b22b1?sid=0ac7837e-e345-4f
 - JavaScript
 - BootStrap
 - Json Files
+
+## Overview Video
+https://www.loom.com/share/5e6c9a090bff498e8e1c477e9e4b22b1?sid=0ac7837e-e345-4fc1-b22f-f29eb89fe6f0
+
+## Project Flow
+![Project Flow](Project_Flow.png)
 
 ## Screenshots
 ![Home Page 1](images/HomePage_1.png)
